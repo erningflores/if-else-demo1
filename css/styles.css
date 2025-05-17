@@ -1,0 +1,21 @@
+*, *::before, *::after{
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+.container, select{
+    font-size: 20px;
+    font-weight: bold;
+    border-bottom: 1px solid green;
+    background-color: greenyellow;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 10px;
+    gap: 20px;
+}
+.container select{
+    background-color: green;
+}
+p{
+    font-size: 18px;
+}
